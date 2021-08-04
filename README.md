@@ -15,3 +15,9 @@ NIAGAHOSTER TASK 2 BOXBILLING & LANDINGPAGE ON DOCKER
    - Landingpage Run on Port 8000
 
 ## Screenshot
+
+![Screen Shot Boxbilling](https://user-images.githubusercontent.com/64511435/128216117-22d97da3-e3c9-491b-8d6b-5af737c5d1f1.png)
+
+<img width="1140" alt="landingpage" src="https://user-images.githubusercontent.com/64511435/128216240-77fd49d2-9670-4190-9446-7c6801d34abd.png">
+
+
