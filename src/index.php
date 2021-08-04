@@ -1,0 +1,2 @@
+<?PHP
+    echo"HAI SAYANG";

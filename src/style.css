@@ -1,0 +1,238 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* import font */
+
+body {
+  font-family: "Roboto Light", sans-serif;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.text-bantuan {
+  font-size: 24px;
+}
+.btn-oval {
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Montserrat Bold";
+}
+.border-3 {
+  border-width: 3px !important;
+}
+.bolds {
+  font-weight: bold !important;
+}
+.hero-title-medium {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #505050;
+}
+.hero-title-small {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #505050;
+}
+.hero-subtitle-small {
+  font-family: "Montserrat Light";
+  font-size: 25px;
+  color: rgba(65, 65, 65, 1);
+}
+.topbar a.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.navb a.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sticky {
+  position: absolute;
+  z-index: 1;
+  left: -5px;
+  top: -5px;
+}
+.iklan {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #585858;
+  position: absolute;
+  /* top: -20; */
+}
+.navbar-toggler {
+  border-radius: 50%;
+  padding: 10px 10px;
+}
+.br {
+  border-radius: 30px;
+}
+
+@media (max-width: 1233px) {
+  .wauto {
+    width: auto !important;
+  }
+}
+/* @media (min-width: 992px) {
+} */
+
+.line {
+  width: 100px;
+  height: 4px;
+  background: #f1f1f1;
+  margin: auto;
+}
+.line2 {
+  width: 200px;
+  height: 2px;
+  background: #ffffff4a;
+  margin: auto;
+}
+.img_wrapper {
+  margin-bottom: 60px;
+  position: relative;
+  padding: 0 65px 150px 72px;
+}
+.hero {
+  padding: 70px 0 20px;
+}
+
+.primarytext {
+  font-family: "Montserrat", sans-serif;
+}
+.primarytext-small {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.secondarytext {
+  font-family: "Roboto", sans-serif;
+}
+.secondarytext-small {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.color-primary {
+  color: #4f4f4f;
+}
+.color-secondary {
+  color: #c1c1c1;
+}
+.background-secondary {
+  background: #247fde;
+}
+.linespace {
+  line-height: 2.5;
+}
+.text-ico {
+  position: relative;
+  top: -24px;
+  color: gray;
+  left: 40px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.tc {
+  text-align: center;
+}
+
+.bc {
+  text-align: center;
+}
+.bg-footer {
+  background: #303030;
+  color: #868686;
+  outline: none;
+  padding: 60px 0;
+}
+.btnstiky {
+  position: relative;
+  bottom: 45px;
+  left: 76px;
+  height: 40px;
+}
+.list-none {
+  list-style: none;
+  /* float: left; */
+  padding: 0px;
+}
+.payment_list {
+  padding: 80px 0 50px;
+}
+.payment_list_wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-top: 15px; */
+  text-align: center;
+}
+.flex-warap {
+  flex-wrap: wrap;
+  /* width: 800px; */
+}
+.payment-list__icon {
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  margin: 0 10px 40px 0;
+  opacity: 0.4;
+  filter: brightness(0) invert(1);
+  border: 1px white solid;
+  padding: 8px;
+}
+img.payment-list__icon:hover {
+  -webkit-transition: all 0.3s;
+  filter: brightness(1) invert(0);
+  opacity: 100%;
+}
+.btn-newsletter {
+  border-radius: 25px;
+  background-color: #008feb;
+  color: white;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+.input-newsletter {
+  padding: 25px;
+}
+.copyright-text {
+  font-size: 12px;
+}
+
+@media (max-width: 991px) {
+  .line2 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .line2 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-warap {
+    flex-wrap: nowrap;
+  }
+  .bc {
+    text-align: left;
+  }
+  .bg-height {
+    height: 70px;
+  }
+  .tc {
+    text-align: left;
+  }
+  .line2 {
+    width: 1px;
+    height: 50px;
+    background: #ffffff4a;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .imgphp {
+    display: none;
+  }
+}

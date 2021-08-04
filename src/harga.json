@@ -1,0 +1,22 @@
+[
+    {
+        "nama": "bayi",
+        "harga": "19.900",
+        "promo": "14.900"
+    },
+    {
+        "nama": "pelajar",
+        "harga": "45.900",
+        "promo": "23.450"
+    },
+    {
+        "nama": "personal",
+        "harga": "58.900",
+        "promo": "38.900"
+    },
+    {
+        "nama": "bisnis",
+        "harga": "109.900",
+        "promo": "65.900"
+    }
+]
